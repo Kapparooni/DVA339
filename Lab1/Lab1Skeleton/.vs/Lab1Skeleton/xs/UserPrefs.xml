@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{DBF2E852-5387-4237-A90E-E372B2B90AFD}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Lexer/Program.cs" Line="1" Column="1" />
+      <File FileName="Lexer/Lexer.cs" />
+      <File FileName="Lexer/Token.cs" />
+      <File FileName="Parser/Program.cs" />
+      <File FileName="Parser/AbstractSyntax.cs" Line="1" Column="1" />
+      <File FileName="Parser/Parser.cs" />
+      <File FileName="Tests/Test.cs" Line="11" Column="4" />
+      <File FileName="Tests/packages.config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Lab1Skeleton" expanded="True">
+            <Node name="Lexer" expanded="True" />
+            <Node name="Parser" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Lexer PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
