@@ -4,8 +4,8 @@ namespace Lexer
 {
 	public class Token 
 	{
-		public enum Type { KEYW, SEP, OP, ID, NUM, EOF };
-		private Type type;
+		public enum Type { KEYW, SEP, OP, ID, NUM, EOF, TOKERR };
+		public Type type;
 		private string lexeme;
 
 		private int line;
@@ -22,10 +22,10 @@ namespace Lexer
 		}
 
 		override public string ToString()
-		{
-			if (lexeme != null) { return string.Format("{0} {1} {2} {3}", type, lexeme, line, column); }
-			return string.Format("{0} {1} {2}", type, line, column);
-		}
+{
+    	if (lexeme != null) { return string.Format("{0} ({1} {2} {3})", lexeme, type, line, column); }
+    	return string.Format("({0} {1} {2})", type, line, column);
+}
 
 	}
 }
