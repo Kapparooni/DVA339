@@ -4,7 +4,8 @@ namespace Lexer
 {
 	public class Token 
 	{
-		public enum Type { KEYW, SEP, OP, ID, NUM, EOF, TOKERR };
+		//Changed to add TOKERR (Token Error)
+		public enum Type { KEYW, SEP, OP, ID, NUM, EOF, TOKERR};
 		public Type type;
 		private string lexeme;
 

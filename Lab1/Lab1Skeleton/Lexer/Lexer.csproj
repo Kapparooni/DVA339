@@ -1,3 +1,5 @@
+
+<!-- Changed a bunch here, had a lot of issues with it wanting to use the wrong framework -->
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
